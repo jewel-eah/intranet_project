@@ -1,0 +1,62 @@
+form , .modify{
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h4 {
+	margin-top : 10px;
+}
+.title {
+	margin-top: 10px;
+}
+
+input[type=text] , input[type=email] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type=button], input[type=submit] {
+  background-color: #aec4af;
+  color: #263A29;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+	display: block;
+}
+
+
+input[type=button]:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+
+textarea {
+	resize: none;
+}
+
+.postCode {
+	display: flex;
+	flex-direction: center;
+}
+
+.p_code {
+	width: 500px;
+}
+
+#pc_button {
+	margin: 0;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.container{
+	margin : 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	height : 80vh;
+	gap : 15px;
+}
+
+.button{
+	
+	display : flex;
+	align-self: flex-end ;
+	gap : 10px;
+}
+p{
+	height: 60%;
+}
+.p{
+	display : flex;
+	align-self: flex-end ;
+}

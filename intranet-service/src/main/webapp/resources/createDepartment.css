@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+form {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+input[type="text"], input[type="submit"] {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+table{
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-collapse: collapse;
+	
+}
+.p_table {
+	text-align: center;
+	margin-top: 50px;
+    width: 600px;
+    padding: 2px;
+    outline: none;
+}
+
+th, td {
+	 border-bottom: 1px solid #7B8FA1;
+ 	 padding: 10px;
+ 	 height: 30px;
+ 	 text-align: center;
+}
+
+
+input [td_readonly] {
+	border: none;
+}
+
+select {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: auto;
+}
+
+
+input[type=password]{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 20%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type=button], input[type=sumbit] , .modify {
+  display: block;
+  background-color: #aec4af;
+  color: #263A29;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+
+h4 {
+	margin-top: 10px;
+}
+
+#p_form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#lec_professorName{
+	justify-content: flex-end;
+}
+
+.list{
+	flex-direction: column; 
+	height: 80%;
+}
+.lecturelist{
+	text-align: center;
+	margin-top: 50px;
+    width: 900px;
+	
+}
+
+
+

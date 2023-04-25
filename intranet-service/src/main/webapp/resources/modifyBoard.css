@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#title{
+	width: 69%;
+	height: 40px;
+	font-size: 20px;
+}
+textarea{
+	width: 70%;
+	height: 40vh;
+	font-size: 20px;
+}
+
+input[type="button"]{
+	width: 80px;
+	height: 40px;
+	
+	font-size: 15px;
+	
+}
+
+.container{
+	gap : 20px;
+}
+h1{
+	margin : 20px;
+}

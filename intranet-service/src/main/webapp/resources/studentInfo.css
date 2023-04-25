@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.studentInfo {
+margin: 20px;
+font-family: Arial, sans-serif;
+}
+
+h2 {
+font-size: 28px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+h3 {
+font-size: 24px;
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+.lec_professorName {
+	text-align: right;
+}
+
+td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+td:first-chi                                                       ld {
+font-weight: bold;
+}
+
+hr {
+margin: 20px 0;
+border: 0;
+height: 1px;
+background-color: #ddd;
+}
